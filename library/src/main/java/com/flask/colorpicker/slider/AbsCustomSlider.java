@@ -5,12 +5,13 @@ import android.content.res.TypedArray;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.graphics.PorterDuff;
-import android.support.annotation.DimenRes;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
 
 import com.flask.colorpicker.R;
+
+import androidx.annotation.DimenRes;
 
 public abstract class AbsCustomSlider extends View {
 	protected Bitmap bitmap;

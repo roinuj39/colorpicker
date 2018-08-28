@@ -1,6 +1,5 @@
 package com.flask.colorpicker.builder;
 
-import android.support.v7.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.graphics.Color;
@@ -21,6 +20,8 @@ import com.flask.colorpicker.Utils;
 import com.flask.colorpicker.renderer.ColorWheelRenderer;
 import com.flask.colorpicker.slider.AlphaSlider;
 import com.flask.colorpicker.slider.LightnessSlider;
+
+import androidx.appcompat.app.AlertDialog;
 
 public class ColorPickerDialogBuilder {
 	private AlertDialog.Builder builder;
